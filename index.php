@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="nasa.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
@@ -40,6 +40,39 @@
                 </div>
             </section>
         </div>
+        <div class="go">
+            <div class="card1">
+                <div class="overlay1">
+                    <p>Moon</p>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="overlay2">
+                    <p>Robots</p>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="overlay3">
+                    <p>Rockets</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="about">
+                <p id="us">About us</p>
+                <ul>
+                    <?php $about = ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]; ?>
+                    
+                    <?php foreach ($about as $us) : ?>
+                        
+                        <li><a href="#"><?= $us ?></a></li>
+
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        </div>
+     
+
     </div>
 </body>
 
