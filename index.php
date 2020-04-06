@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
     <title>Document</title>
 </head>
 
@@ -61,17 +61,66 @@
             <div class="about">
                 <p id="us">About us</p>
                 <ul>
-                    <?php $about = ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"]; ?>
-                    
-                    <?php foreach ($about as $us) : ?>
-                        
-                        <li><a href="#"><?= $us ?></a></li>
+                    <?php
+                    $about = "Lorem Ipsum";
+                    $i;
+                    ?>
 
-                    <?php endforeach; ?>
+                    <?php for ($i = 0; $i < 6; $i++) : ?>
+
+                        <li id="one"><a href="#"><?= $about ?></a></li>
+
+                    <?php endfor; ?>
                 </ul>
             </div>
+
+            <div class="com">
+                <p id="mu">Community</p>
+                <ul>
+                    <?php
+                    $about = "Lorem Ipsum";
+                    $i;
+                    ?>
+
+                    <?php for ($i = 0; $i < 5; $i++) : ?>
+
+                        <li id="two"><a href="#"><?= $about ?></a></li>
+
+                    <?php endfor; ?>
+                </ul>
+            </div>
+
+            <div class="news">
+                <p id="info">News and info</p>
+                <ul>
+                    <?php
+                    $about = "Lorem Ipsum";
+                    $i;
+                    ?>
+
+                    <?php for ($i = 0; $i < 7; $i++) : ?>
+
+                        <li id="three"><a href="#"><?= $about ?></a></li>
+
+                    <?php endfor; ?>
+                </ul>
+            </div>
+            
+            <div class="belong">
+                <span>@ 2020 Nasa Company</span><a href="#"><span id="contact_us">Contact us</span></a>
+            </div>
+
+    
+
+
+
+
+
+
+
+
         </div>
-     
+
 
     </div>
 </body>
