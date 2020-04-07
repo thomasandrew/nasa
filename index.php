@@ -73,7 +73,6 @@
                     <?php endfor; ?>
                 </ul>
             </div>
-
             <div class="com">
                 <p id="mu">Community</p>
                 <ul>
@@ -89,7 +88,6 @@
                     <?php endfor; ?>
                 </ul>
             </div>
-
             <div class="news">
                 <p id="info">News and info</p>
                 <ul>
@@ -105,23 +103,10 @@
                     <?php endfor; ?>
                 </ul>
             </div>
-            
             <div class="belong">
-                <span>@ 2020 Nasa Company</span><a href="#"><span id="contact_us">Contact us</span></a>
+                <span>@ 2020 Nasa Company</span><span id="contact_us"><a href="#">Contact us</a></span>
             </div>
-
-    
-
-
-
-
-
-
-
-
         </div>
-
-
     </div>
 </body>
 

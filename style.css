@@ -298,4 +298,13 @@ section {
 #contact_us a{
     position: relative;
     left: 20pt;
+    color: #fff;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
 }
+
+#contact_us a:hover {
+    text-decoration: underline;
+}
+
