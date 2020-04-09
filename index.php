@@ -41,6 +41,7 @@
                     </div>
                 </div>
             </section>
+
         </div>
         <div class="go">
             <div class="card1">
@@ -108,8 +109,19 @@
             <div class="belong">
                 <span>@ 2020 Nasa Company</span><span id="contact_us"><a href="#">Contact us</a></span>
             </div>
+
+
         </div>
+
     </div>
+
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/5395b9f5f0.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
