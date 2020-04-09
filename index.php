@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css?v=<?php echo time(); ?>">
+    <title>Nasa</title>
 </head>
 
 <body>
@@ -19,7 +19,9 @@
                         </div>
                         <div class="nav">
                             <ul>
-                                <?php $nav_things = ['Home', 'Screenshoots', 'Missions', 'Sign in']; ?>
+                                <?php $nav_things = ['Home', 'Screenshoots', 'Missions']; ?>
+
+                                <?php $nav_things[3] = '<a href="login.php" style="margin-left:1px;">Sign in</a>'; ?>
 
                                 <?php foreach ($nav_things as $things) : ?>
 
