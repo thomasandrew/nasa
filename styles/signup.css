@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+section {
+    background-image: url("assets/space3.jpg");
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+
+.my {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+}
+
+.cont {
+    background-color: #fff;
+    position: relative;
+    height: 70%;
+    width: 30%;
+    left: 35%;
+    top: 15%;
+}
+
+.cont img {
+    width: 25%;
+    height: 20%;
+    margin-left: 38%;
+    margin-top: 30px;
+}
+
+form {
+    box-sizing: border-box;
+}
+
+#username {
+    margin-top: 5%;
+    margin-left: 14%;
+    border: 2px solid #0099ffee;
+    width: 70%;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 25px;
+    padding: 5px;
+    outline: none;
+}
+
+#password {
+    margin-top: 5%;
+    margin-left: 14%;
+    border: 2px solid #0099ffee;
+    width: 70%;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 25px;
+    padding: 5px;
+    outline: none;
+}
+
+#telefone {
+    margin-top: 5%;
+    margin-left: 14%;
+    border: 2px solid #0099ffee;
+    width: 70%;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 25px;
+    padding: 5px;
+    outline: none;
+}
+
+#e-mail {
+    margin-top: 5%;
+    margin-left: 14%;
+    border: 2px solid #0099ffee;
+    width: 70%;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 25px;
+    padding: 5px;
+    outline: none;
+}
+
+#sub {
+    margin-top: 5%;
+    margin-left: 14%;
+    border: none;
+    background-color: #0099ffee;
+    width: 70%;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 25px;
+    padding: 5px;
+    outline: none;
+    color: #fff;
+}
+
