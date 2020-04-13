@@ -19,8 +19,12 @@
                 <input type="password" name="pass" id="password" placeholder="Password">
                 <input type="submit" value="Press" id="sub">
             </form>
+            <?php
+
+
+            ?>
             <div class="forgot">
-                <a href="signin.php"><p>Don't have an account?</p></a>
+                <a href="signup.php"><p>Don't have an account?</p></a>
             </div>
             </div>
         </div>
