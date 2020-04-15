@@ -14,19 +14,16 @@
         <div class="my">
             <div class="cont">
             <img src="styles/assets/nasa-logo.png">
-            <form action="">
+            <form action="" method="POST">
                 <input type="text" name="user" id="username" placeholder="Username">
                 <input type="password" name="pass" id="password" placeholder="Password">
                 <input type="submit" value="Press" id="sub">
             </form>
-            <?php
-
-
-            ?>
             <div class="forgot">
                 <a href="signup.php"><p>Don't have an account?</p></a>
             </div>
             </div>
+            <?php require "php/log_in.php"; ?>
         </div>
     </section>
 
